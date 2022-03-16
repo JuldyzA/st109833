@@ -12,7 +12,7 @@
 '' Date/Initials Comments
 
 '' --------- -------------------------------
-'' rw Created for LoanApp 2.1
+''rw Created for LoanApp 2.1
 
 ''*****************************************
 
@@ -26,3 +26,6 @@ AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.co
 
 ''Invalid input - missing password
 AddUser "rnmith", "", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
+
+''Invalid input - user already exists
+AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
